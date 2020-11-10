@@ -1,6 +1,6 @@
 ISC License
 
-Copyright (c) 2020,  Reyes
+Copyright (c) 2020, Vicente G. Reyes
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
