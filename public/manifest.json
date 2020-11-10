@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ritlato",
+  "name": "Photo dump site by Vicente G. Reyes",
+  "description": "All shots belong to me, taken using a CANON 550D & a Canon Zoom Len( EF-S 18-135mm). Photos are edited using darktable.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,15 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#212121",
+  "background_color": "#212121",
+  "shortcuts": [
+    {
+      "name": "Photo dump site by Vicente G. Reyes",
+      "short_name": "Ritlato",
+      "description": "All shots belong to me, taken using a CANON 550D & a Canon Zoom Len( EF-S 18-135mm). Photos are edited using darktable.",
+      "url": ".",
+      "icons": [{ "src": "/logo192.png", "sizes": "192x192" }]
+    }
+  ]
 }

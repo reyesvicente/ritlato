@@ -24,15 +24,15 @@ class Gallery extends Component {
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">{fields.hero.sub_headline}</p>
           </div>
           <div className="flex flex-wrap">
-            {fields.gallery.map((media, id) => {
+            {fields.gallery.map((media) => {
               return (
-            <div className="lg:w-1/3 sm:w-1/2 p-4" key={media.id}>
-              <div className="flex relative min-w-full w-full min-h-full">
-                <img alt="gallery" className="absolute inset-0 object-cover object-center" src={media.image} />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-lg title-font font-medium text-indigo-500 mb-1" dangerouslySetInnerHTML={{__html: media.title}} />
-                  <h1 className="title-font text-sm font-medium text-white mb-3" dangerouslySetInnerHTML={{__html: media.subtitle}} />
-                  <p className="leading-relaxed" dangerouslySetInnerHTML={{__html: media.description}} />
+            <div className="w-full lg:w-1/3 sm:w-full md:w-1/2 p-4" key={media.id}>
+              <div className="flex relative">
+                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={media.image} />
+                <div className="box-border px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 w-64 h-64 min-h-56 max-h-full min-w-56 max-w-full">
+                  <h1 className="tracking-widest text-lg title-font font-medium text-indigo-500 mb-1" dangerouslySetInnerHTML={{ __html: media.title }} />
+                  <h2 className="title-font text-sm font-medium text-white mb-3" dangerouslySetInnerHTML={{__html: media.subtitle}} />
+                  <p className="leading-relaxed" dangerouslySetInnerHTML={{ __html: media.description }} />
                 </div>
               </div>
             </div>)
