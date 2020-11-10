@@ -10,7 +10,7 @@ class Footer extends Component {
             <img src="https://cdn.buttercms.com/F8jmGuhSeOaRyUVgF1G5" className="w-8 h-6" alt="Ritlato logo by icons8.com" />
             <span className="ml-3 text-xl">Ritlato</span>
           </a>
-          <p className="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 Vicente G. Reyes — Made with
+          <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 Vicente G. Reyes — Made with
           </p>
 
             <a className="ml-1" href="https://buttercms.com" target="_blank" rel="noreferrer">
