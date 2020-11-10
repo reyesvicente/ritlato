@@ -6,13 +6,12 @@ class Footer extends Component {
     return (
       <footer className="text-gray-500 bg-gray-900 body-font">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-white" href="/">
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-white" href="/" target="_blank" rel="noreferrer">
             <img src="https://cdn.buttercms.com/F8jmGuhSeOaRyUVgF1G5" className="w-8 h-6" alt="Ritlato logo by icons8.com" />
             <span className="ml-3 text-xl">Ritlato</span>
           </a>
           <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 Vicente G. Reyes — Made with
           </p>
-
             <a className="ml-1" href="https://buttercms.com" target="_blank" rel="noreferrer">
               <img className="w-48 h-12" src="https://cdn.buttercms.com/RyJ7UhcVTCRqrCFXwgCo" alt="ButterCMS Logo" />
             </a>
