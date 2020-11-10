@@ -48,8 +48,8 @@ class Gallery extends Component {
                 return (
               <div className="w-full lg:w-1/3 sm:w-full md:w-1/2 p-4" key={media.id}>
                 <div className="flex relative">
-                  <img alt={media.title} className="absolute inset-0 w-full h-full object-scale-down object-center" src={media.image} />
-                  <div className="box-border px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 w-64 h-64 min-h-56 max-h-full min-w-56 max-w-full">
+                  <img alt={media.title} className="absolute w-full h-full object-scale-down object-center" src={media.image} />
+                  <div className="box-border px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 w-64 h-64 min-h-56 max-h-full min-w-56 max-w-full text-center">
                     <h1 className="tracking-widest text-lg title-font font-medium text-indigo-500 mb-1" dangerouslySetInnerHTML={{ __html: media.title }} />
                     <h2 className="title-font text-sm font-medium text-white mb-3" dangerouslySetInnerHTML={{__html: media.subtitle}} />
                     <p className="leading-relaxed" dangerouslySetInnerHTML={{ __html: media.description }} />
