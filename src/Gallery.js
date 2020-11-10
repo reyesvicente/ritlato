@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import butter from './butter-client'
 
-
 class Gallery extends Component {
   state = {
     data: {
@@ -21,8 +20,8 @@ class Gallery extends Component {
       <section className="text-gray-500 bg-gray-900 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20" key={fields.id}>
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Photo dump site by Vicente G. Reyes</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">All shots belong to me, taken using a CANON 550D & a Canon Zoom Len( EF-S 18-135mm). Photos are edited using darktable.</p>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">{fields.hero.headline}</h1>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">{fields.hero.sub_headline}</p>
           </div>
           <div className="flex flex-wrap">
             {fields.gallery.map((media, id) => {
