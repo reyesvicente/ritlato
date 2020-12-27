@@ -39,9 +39,13 @@ class Gallery extends Component {
         </Helmet>
         <section className="text-gray-500 bg-gray-900 body-font">
           <div className="container px-5 py-24 mx-auto">
-            <div className="flex flex-col text-center w-full mb-20" key={fields.id}>
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">{fields.hero.headline}</h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">{fields.hero.sub_headline}</p>
+            <div className="flex flex-wrap w-full bg-gray-800 py-32 px-10 relative mb-4" key={fields.id}>
+              <a href="https://studio.icvn.tech" target="_blank" rel="noopener noreferrer">
+              <img alt="Logo of HighcenbugTV" className="w-full object-contain h-full object-center block opacity-20 absolute inset-0" src={fields.open_graph.image} /></a>
+              <div className="text-center relative z-10 w-full">
+                <h2 className="text-4xl text-white font-medium title-font mb-2">{fields.hero.headline}</h2>
+                <p className="text-xl leading-relaxed text-white">{fields.hero.sub_headline}</p>
+              </div>
             </div>
             <div className="flex flex-wrap">
               {fields.gallery.map((media) => {
